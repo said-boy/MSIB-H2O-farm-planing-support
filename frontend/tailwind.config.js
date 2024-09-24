@@ -19,6 +19,7 @@ module.exports = {
         light: {
           colors: {
             success: "#74B49B",
+            soft: "#F4F9F4",
           },
         },
       },
