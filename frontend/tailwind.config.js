@@ -10,7 +10,11 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+           poppins: ['Poppins'],
+        }
+    },
   },
   darkMode: "class",
   plugins: [
@@ -20,6 +24,8 @@ module.exports = {
           colors: {
             success: "#74B49B",
             soft: "#F4F9F4",
+            greendark: "#5C8D89",
+            bluedark: "#495464",
           },
         },
       },
