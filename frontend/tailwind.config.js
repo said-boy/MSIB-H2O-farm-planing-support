@@ -26,6 +26,7 @@ module.exports = {
             soft: "#F4F9F4",
             greendark: "#5C8D89",
             bluedark: "#495464",
+            bluewhite: "#00ACE8",
           },
         },
       },
