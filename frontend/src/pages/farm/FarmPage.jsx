@@ -17,11 +17,15 @@ export default function FarmPage() {
                     <LogoNero />
                 </div>
             </div>
-            <div className="bg-soft px-9 pt-5 pb-20">
+            <div className="bg-soft px-9 pt-5 pb-24">
                 <h1 className="text-4xl font-bold font-poppins font-semibold mt-5">Hi Nolan,</h1>
-                <div className="py-5 flex flex-col gap-6">
-                    <Plan />
-                    <Schedule />
+                <div className="py-6 flex flex-col md:flex-row gap-6">
+                    <div className="md:w-full">
+                        <Plan />
+                    </div>
+                    <div className="xl:w-1/2">
+                        <Schedule />
+                    </div>
                 </div>
                 <Calendar />
             </div>

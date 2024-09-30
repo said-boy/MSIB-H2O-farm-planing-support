@@ -1,4 +1,4 @@
-import background from "../../assets/images/bg-signin.jpg";
+import background from "../../assets/images/kecambah.png";
 
 export default function Excess() {
     return (

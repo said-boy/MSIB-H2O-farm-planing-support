@@ -51,10 +51,13 @@ export default function Menu() {
                                 <CalendarIcon />
                             </div>
                         }
-                    />
+                        />
                     <Tab
+                        as={Link}
+                        to="/market"
                         className="py-6 px-4"
-                        key="videos"
+                        key="/market"
+                        onClick={() => setActiveTab('/market')}
                         title={
                             <div className="flex items-center space-x-2">
                                 <BagIcon />

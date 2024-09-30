@@ -1,22 +1,23 @@
 import background from "../../assets/images/bg-signin.jpg";
+import fourplant from "../../assets/images/four-plants.png";
 import { Button } from "@nextui-org/react";
 
 export default function Hero() {
     return (
         <>
             <div className="flex flex-col md:flex-row gap-10 bg-soft">
-                <img src={background} alt="" className="w-full md:hidden rounded-xl -mt-10" />
+                <img src={fourplant} alt="" className="w-full md:hidden rounded-xl -mt-10" />
                 <div className="relative md:w-1/2 md:-mt-11">
                     <h1 className="text-4xl font-bold font-poppins font-semibold">Neró Farm.</h1>
                     <canvas className="absolute bg-greendark w-full rounded-full h-1/2 mt-10 blur-3xl" style={{ opacity: 0.12 }}></canvas>
                     <p className="pt-7 text-justify font-poppins font-light">Neró Farm diambil dari kata Nero(Air) dan Farm(Berkebun) yang bisa diartikan secara lengkap yaitu perkebunan yang cara pertumbuhannya  lebih banyak menggunakan media air atau Hidroponik.
                         Maksud dari Situs Web Nero Farm adalah Situs berbasis Web yang menyajikan informasi mengenai Hidroponik dan Jual tanaman Hidroponik.</p>
-                    <Button color="success" className="text-white mt-14 lg:mt-36 p-7 px-20 font-bold text-lg w-full drop-shadow-[0_4px_12px_rgba(255,221,40,0.2)]">
+                    <Button color="success" className="text-white mt-14 lg:mt-36 p-7 px-20 font-bold text-lg w-full xl:w-1/2 drop-shadow-[0_4px_12px_rgba(255,221,40,0.2)]">
                         Let's go farm
                     </Button>
                 </div>
                 <div className="hidden md:w-1/2 md:flex overflow-hidden w-full rounded-xl -mt-10">
-                    <img src={background} alt="" className="object-cover w-full h-full" />
+                    <img src={fourplant} alt="" className="object-cover w-full h-full" />
                 </div>
             </div>
 
